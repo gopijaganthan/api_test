@@ -1,0 +1,484 @@
+<?xml version="1.0"?>
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1564551764647" stop="1564551764649">
+  <name>Api - skills #normalize</name>
+  <title>Api - skills #normalize</title>
+  <test-cases>
+    <test-case start="1564551764647" stop="1564551764647" status="broken">
+      <name>Api - skills #normalize Check whether normalize api request as a put request</name>
+      <title>Api - skills #normalize Check whether normalize api request as a put request</title>
+      <failure>
+        <message>undefined method `pry' for #&lt;Binding:0x00007fb60174edc0&gt;</message>
+        <stack-trace>/Users/user/Downloads/Ruby_Api_test/spec/skills/normalize_skillname_spec.rb:4:in `block (2 levels) in &lt;top (required)&gt;'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:350:in `instance_exec'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:350:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:509:in `block in run_owned_hooks_for'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:508:in `each'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:508:in `run_owned_hooks_for'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:460:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/allure-rspec-0.8.0/lib/allure-rspec/hooks.rb:33:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/example_group.rb:537:in `block in run_before_context_hooks'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/memoized_helpers.rb:186:in `block in isolate_for_context_hook'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/memoized_helpers.rb:182:in `instance_exec'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/memoized_helpers.rb:182:in `isolate_for_context_hook'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/example_group.rb:536:in `run_before_context_hooks'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/example_group.rb:589:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:118:in `block (3 levels) in run_specs'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:118:in `map'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:118:in `block (2 levels) in run_specs'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/configuration.rb:1926:in `with_suite_hooks'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:113:in `block in run_specs'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/reporter.rb:79:in `report'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:112:in `run_specs'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:87:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:71:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:45:in `invoke'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/exe/rspec:4:in `&lt;top (required)&gt;'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/bin/rspec:23:in `load'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/bin/rspec:23:in `&lt;main&gt;'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/bin/ruby_executable_hooks:24:in `eval'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/bin/ruby_executable_hooks:24:in `&lt;main&gt;'</stack-trace>
+      </failure>
+      <steps/>
+      <attachments/>
+      <labels>
+        <label name="thread" value="70209839033940"/>
+        <label name="host" value="FDLMC1414.local"/>
+      </labels>
+      <parameters/>
+    </test-case>
+    <test-case start="1564551764647" stop="1564551764647" status="broken">
+      <name>Api - skills #normalize Check whether normalize api request as a post request</name>
+      <title>Api - skills #normalize Check whether normalize api request as a post request</title>
+      <failure>
+        <message>undefined method `pry' for #&lt;Binding:0x00007fb60174edc0&gt;</message>
+        <stack-trace>/Users/user/Downloads/Ruby_Api_test/spec/skills/normalize_skillname_spec.rb:4:in `block (2 levels) in &lt;top (required)&gt;'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:350:in `instance_exec'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:350:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:509:in `block in run_owned_hooks_for'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:508:in `each'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:508:in `run_owned_hooks_for'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:460:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/allure-rspec-0.8.0/lib/allure-rspec/hooks.rb:33:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/example_group.rb:537:in `block in run_before_context_hooks'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/memoized_helpers.rb:186:in `block in isolate_for_context_hook'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/memoized_helpers.rb:182:in `instance_exec'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/memoized_helpers.rb:182:in `isolate_for_context_hook'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/example_group.rb:536:in `run_before_context_hooks'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/example_group.rb:589:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:118:in `block (3 levels) in run_specs'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:118:in `map'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:118:in `block (2 levels) in run_specs'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/configuration.rb:1926:in `with_suite_hooks'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:113:in `block in run_specs'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/reporter.rb:79:in `report'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:112:in `run_specs'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:87:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:71:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:45:in `invoke'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/exe/rspec:4:in `&lt;top (required)&gt;'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/bin/rspec:23:in `load'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/bin/rspec:23:in `&lt;main&gt;'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/bin/ruby_executable_hooks:24:in `eval'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/bin/ruby_executable_hooks:24:in `&lt;main&gt;'</stack-trace>
+      </failure>
+      <steps/>
+      <attachments/>
+      <labels>
+        <label name="thread" value="70209839033940"/>
+        <label name="host" value="FDLMC1414.local"/>
+      </labels>
+      <parameters/>
+    </test-case>
+    <test-case start="1564551764648" stop="1564551764648" status="broken">
+      <name>Api - skills #normalize Check whether normalize api request as a patch request</name>
+      <title>Api - skills #normalize Check whether normalize api request as a patch request</title>
+      <failure>
+        <message>undefined method `pry' for #&lt;Binding:0x00007fb60174edc0&gt;</message>
+        <stack-trace>/Users/user/Downloads/Ruby_Api_test/spec/skills/normalize_skillname_spec.rb:4:in `block (2 levels) in &lt;top (required)&gt;'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:350:in `instance_exec'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:350:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:509:in `block in run_owned_hooks_for'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:508:in `each'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:508:in `run_owned_hooks_for'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:460:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/allure-rspec-0.8.0/lib/allure-rspec/hooks.rb:33:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/example_group.rb:537:in `block in run_before_context_hooks'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/memoized_helpers.rb:186:in `block in isolate_for_context_hook'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/memoized_helpers.rb:182:in `instance_exec'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/memoized_helpers.rb:182:in `isolate_for_context_hook'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/example_group.rb:536:in `run_before_context_hooks'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/example_group.rb:589:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:118:in `block (3 levels) in run_specs'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:118:in `map'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:118:in `block (2 levels) in run_specs'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/configuration.rb:1926:in `with_suite_hooks'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:113:in `block in run_specs'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/reporter.rb:79:in `report'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:112:in `run_specs'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:87:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:71:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:45:in `invoke'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/exe/rspec:4:in `&lt;top (required)&gt;'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/bin/rspec:23:in `load'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/bin/rspec:23:in `&lt;main&gt;'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/bin/ruby_executable_hooks:24:in `eval'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/bin/ruby_executable_hooks:24:in `&lt;main&gt;'</stack-trace>
+      </failure>
+      <steps/>
+      <attachments/>
+      <labels>
+        <label name="thread" value="70209839033940"/>
+        <label name="host" value="FDLMC1414.local"/>
+      </labels>
+      <parameters/>
+    </test-case>
+    <test-case start="1564551764648" stop="1564551764648" status="broken">
+      <name>Api - skills #normalize Check whether normalize api request as a delete request</name>
+      <title>Api - skills #normalize Check whether normalize api request as a delete request</title>
+      <failure>
+        <message>undefined method `pry' for #&lt;Binding:0x00007fb60174edc0&gt;</message>
+        <stack-trace>/Users/user/Downloads/Ruby_Api_test/spec/skills/normalize_skillname_spec.rb:4:in `block (2 levels) in &lt;top (required)&gt;'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:350:in `instance_exec'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:350:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:509:in `block in run_owned_hooks_for'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:508:in `each'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:508:in `run_owned_hooks_for'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:460:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/allure-rspec-0.8.0/lib/allure-rspec/hooks.rb:33:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/example_group.rb:537:in `block in run_before_context_hooks'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/memoized_helpers.rb:186:in `block in isolate_for_context_hook'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/memoized_helpers.rb:182:in `instance_exec'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/memoized_helpers.rb:182:in `isolate_for_context_hook'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/example_group.rb:536:in `run_before_context_hooks'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/example_group.rb:589:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:118:in `block (3 levels) in run_specs'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:118:in `map'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:118:in `block (2 levels) in run_specs'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/configuration.rb:1926:in `with_suite_hooks'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:113:in `block in run_specs'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/reporter.rb:79:in `report'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:112:in `run_specs'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:87:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:71:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:45:in `invoke'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/exe/rspec:4:in `&lt;top (required)&gt;'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/bin/rspec:23:in `load'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/bin/rspec:23:in `&lt;main&gt;'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/bin/ruby_executable_hooks:24:in `eval'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/bin/ruby_executable_hooks:24:in `&lt;main&gt;'</stack-trace>
+      </failure>
+      <steps/>
+      <attachments/>
+      <labels>
+        <label name="thread" value="70209839033940"/>
+        <label name="host" value="FDLMC1414.local"/>
+      </labels>
+      <parameters/>
+    </test-case>
+    <test-case start="1564551764648" stop="1564551764648" status="broken">
+      <name>Api - skills #normalize Check whether normalize Api fetches the skill name without query parameter</name>
+      <title>Api - skills #normalize Check whether normalize Api fetches the skill name without query parameter</title>
+      <failure>
+        <message>undefined method `pry' for #&lt;Binding:0x00007fb60174edc0&gt;</message>
+        <stack-trace>/Users/user/Downloads/Ruby_Api_test/spec/skills/normalize_skillname_spec.rb:4:in `block (2 levels) in &lt;top (required)&gt;'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:350:in `instance_exec'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:350:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:509:in `block in run_owned_hooks_for'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:508:in `each'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:508:in `run_owned_hooks_for'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:460:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/allure-rspec-0.8.0/lib/allure-rspec/hooks.rb:33:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/example_group.rb:537:in `block in run_before_context_hooks'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/memoized_helpers.rb:186:in `block in isolate_for_context_hook'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/memoized_helpers.rb:182:in `instance_exec'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/memoized_helpers.rb:182:in `isolate_for_context_hook'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/example_group.rb:536:in `run_before_context_hooks'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/example_group.rb:589:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:118:in `block (3 levels) in run_specs'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:118:in `map'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:118:in `block (2 levels) in run_specs'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/configuration.rb:1926:in `with_suite_hooks'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:113:in `block in run_specs'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/reporter.rb:79:in `report'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:112:in `run_specs'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:87:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:71:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:45:in `invoke'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/exe/rspec:4:in `&lt;top (required)&gt;'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/bin/rspec:23:in `load'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/bin/rspec:23:in `&lt;main&gt;'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/bin/ruby_executable_hooks:24:in `eval'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/bin/ruby_executable_hooks:24:in `&lt;main&gt;'</stack-trace>
+      </failure>
+      <steps/>
+      <attachments/>
+      <labels>
+        <label name="thread" value="70209839033940"/>
+        <label name="host" value="FDLMC1414.local"/>
+      </labels>
+      <parameters/>
+    </test-case>
+    <test-case start="1564551764648" stop="1564551764648" status="broken">
+      <name>Api - skills #normalize Check whether normalize Api fetches the skill name with query as 'skill_name' parameter value as random value which is not present</name>
+      <title>Api - skills #normalize Check whether normalize Api fetches the skill name with query as 'skill_name' parameter value as random value which is not present</title>
+      <failure>
+        <message>undefined method `pry' for #&lt;Binding:0x00007fb60174edc0&gt;</message>
+        <stack-trace>/Users/user/Downloads/Ruby_Api_test/spec/skills/normalize_skillname_spec.rb:4:in `block (2 levels) in &lt;top (required)&gt;'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:350:in `instance_exec'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:350:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:509:in `block in run_owned_hooks_for'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:508:in `each'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:508:in `run_owned_hooks_for'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:460:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/allure-rspec-0.8.0/lib/allure-rspec/hooks.rb:33:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/example_group.rb:537:in `block in run_before_context_hooks'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/memoized_helpers.rb:186:in `block in isolate_for_context_hook'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/memoized_helpers.rb:182:in `instance_exec'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/memoized_helpers.rb:182:in `isolate_for_context_hook'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/example_group.rb:536:in `run_before_context_hooks'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/example_group.rb:589:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:118:in `block (3 levels) in run_specs'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:118:in `map'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:118:in `block (2 levels) in run_specs'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/configuration.rb:1926:in `with_suite_hooks'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:113:in `block in run_specs'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/reporter.rb:79:in `report'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:112:in `run_specs'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:87:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:71:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:45:in `invoke'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/exe/rspec:4:in `&lt;top (required)&gt;'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/bin/rspec:23:in `load'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/bin/rspec:23:in `&lt;main&gt;'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/bin/ruby_executable_hooks:24:in `eval'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/bin/ruby_executable_hooks:24:in `&lt;main&gt;'</stack-trace>
+      </failure>
+      <steps/>
+      <attachments/>
+      <labels>
+        <label name="thread" value="70209839033940"/>
+        <label name="host" value="FDLMC1414.local"/>
+      </labels>
+      <parameters/>
+    </test-case>
+    <test-case start="1564551764648" stop="1564551764648" status="broken">
+      <name>Api - skills #normalize Check whether normalize Api fetches the skill name with query as 'skill_name' parameter value as nil</name>
+      <title>Api - skills #normalize Check whether normalize Api fetches the skill name with query as 'skill_name' parameter value as nil</title>
+      <failure>
+        <message>undefined method `pry' for #&lt;Binding:0x00007fb60174edc0&gt;</message>
+        <stack-trace>/Users/user/Downloads/Ruby_Api_test/spec/skills/normalize_skillname_spec.rb:4:in `block (2 levels) in &lt;top (required)&gt;'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:350:in `instance_exec'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:350:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:509:in `block in run_owned_hooks_for'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:508:in `each'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:508:in `run_owned_hooks_for'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:460:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/allure-rspec-0.8.0/lib/allure-rspec/hooks.rb:33:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/example_group.rb:537:in `block in run_before_context_hooks'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/memoized_helpers.rb:186:in `block in isolate_for_context_hook'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/memoized_helpers.rb:182:in `instance_exec'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/memoized_helpers.rb:182:in `isolate_for_context_hook'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/example_group.rb:536:in `run_before_context_hooks'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/example_group.rb:589:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:118:in `block (3 levels) in run_specs'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:118:in `map'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:118:in `block (2 levels) in run_specs'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/configuration.rb:1926:in `with_suite_hooks'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:113:in `block in run_specs'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/reporter.rb:79:in `report'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:112:in `run_specs'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:87:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:71:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:45:in `invoke'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/exe/rspec:4:in `&lt;top (required)&gt;'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/bin/rspec:23:in `load'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/bin/rspec:23:in `&lt;main&gt;'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/bin/ruby_executable_hooks:24:in `eval'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/bin/ruby_executable_hooks:24:in `&lt;main&gt;'</stack-trace>
+      </failure>
+      <steps/>
+      <attachments/>
+      <labels>
+        <label name="thread" value="70209839033940"/>
+        <label name="host" value="FDLMC1414.local"/>
+      </labels>
+      <parameters/>
+    </test-case>
+    <test-case start="1564551764648" stop="1564551764648" status="broken">
+      <name>Api - skills #normalize Check whether normalize Api fetches the skill name as a secured link</name>
+      <title>Api - skills #normalize Check whether normalize Api fetches the skill name as a secured link</title>
+      <failure>
+        <message>undefined method `pry' for #&lt;Binding:0x00007fb60174edc0&gt;</message>
+        <stack-trace>/Users/user/Downloads/Ruby_Api_test/spec/skills/normalize_skillname_spec.rb:4:in `block (2 levels) in &lt;top (required)&gt;'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:350:in `instance_exec'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:350:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:509:in `block in run_owned_hooks_for'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:508:in `each'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:508:in `run_owned_hooks_for'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:460:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/allure-rspec-0.8.0/lib/allure-rspec/hooks.rb:33:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/example_group.rb:537:in `block in run_before_context_hooks'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/memoized_helpers.rb:186:in `block in isolate_for_context_hook'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/memoized_helpers.rb:182:in `instance_exec'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/memoized_helpers.rb:182:in `isolate_for_context_hook'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/example_group.rb:536:in `run_before_context_hooks'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/example_group.rb:589:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:118:in `block (3 levels) in run_specs'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:118:in `map'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:118:in `block (2 levels) in run_specs'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/configuration.rb:1926:in `with_suite_hooks'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:113:in `block in run_specs'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/reporter.rb:79:in `report'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:112:in `run_specs'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:87:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:71:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:45:in `invoke'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/exe/rspec:4:in `&lt;top (required)&gt;'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/bin/rspec:23:in `load'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/bin/rspec:23:in `&lt;main&gt;'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/bin/ruby_executable_hooks:24:in `eval'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/bin/ruby_executable_hooks:24:in `&lt;main&gt;'</stack-trace>
+      </failure>
+      <steps/>
+      <attachments/>
+      <labels>
+        <label name="thread" value="70209839033940"/>
+        <label name="host" value="FDLMC1414.local"/>
+      </labels>
+      <parameters/>
+    </test-case>
+    <test-case start="1564551764648" stop="1564551764648" status="broken">
+      <name>Api - skills #normalize Check whether normalize Api fetches the skill name with a invalid content type</name>
+      <title>Api - skills #normalize Check whether normalize Api fetches the skill name with a invalid content type</title>
+      <failure>
+        <message>undefined method `pry' for #&lt;Binding:0x00007fb60174edc0&gt;</message>
+        <stack-trace>/Users/user/Downloads/Ruby_Api_test/spec/skills/normalize_skillname_spec.rb:4:in `block (2 levels) in &lt;top (required)&gt;'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:350:in `instance_exec'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:350:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:509:in `block in run_owned_hooks_for'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:508:in `each'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:508:in `run_owned_hooks_for'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:460:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/allure-rspec-0.8.0/lib/allure-rspec/hooks.rb:33:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/example_group.rb:537:in `block in run_before_context_hooks'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/memoized_helpers.rb:186:in `block in isolate_for_context_hook'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/memoized_helpers.rb:182:in `instance_exec'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/memoized_helpers.rb:182:in `isolate_for_context_hook'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/example_group.rb:536:in `run_before_context_hooks'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/example_group.rb:589:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:118:in `block (3 levels) in run_specs'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:118:in `map'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:118:in `block (2 levels) in run_specs'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/configuration.rb:1926:in `with_suite_hooks'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:113:in `block in run_specs'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/reporter.rb:79:in `report'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:112:in `run_specs'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:87:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:71:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:45:in `invoke'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/exe/rspec:4:in `&lt;top (required)&gt;'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/bin/rspec:23:in `load'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/bin/rspec:23:in `&lt;main&gt;'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/bin/ruby_executable_hooks:24:in `eval'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/bin/ruby_executable_hooks:24:in `&lt;main&gt;'</stack-trace>
+      </failure>
+      <steps/>
+      <attachments/>
+      <labels>
+        <label name="thread" value="70209839033940"/>
+        <label name="host" value="FDLMC1414.local"/>
+      </labels>
+      <parameters/>
+    </test-case>
+    <test-case start="1564551764648" stop="1564551764648" status="broken">
+      <name>Api - skills #normalize Check whether normalize Api fetches the skill name with a valid api-version</name>
+      <title>Api - skills #normalize Check whether normalize Api fetches the skill name with a valid api-version</title>
+      <failure>
+        <message>undefined method `pry' for #&lt;Binding:0x00007fb60174edc0&gt;</message>
+        <stack-trace>/Users/user/Downloads/Ruby_Api_test/spec/skills/normalize_skillname_spec.rb:4:in `block (2 levels) in &lt;top (required)&gt;'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:350:in `instance_exec'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:350:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:509:in `block in run_owned_hooks_for'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:508:in `each'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:508:in `run_owned_hooks_for'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:460:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/allure-rspec-0.8.0/lib/allure-rspec/hooks.rb:33:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/example_group.rb:537:in `block in run_before_context_hooks'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/memoized_helpers.rb:186:in `block in isolate_for_context_hook'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/memoized_helpers.rb:182:in `instance_exec'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/memoized_helpers.rb:182:in `isolate_for_context_hook'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/example_group.rb:536:in `run_before_context_hooks'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/example_group.rb:589:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:118:in `block (3 levels) in run_specs'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:118:in `map'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:118:in `block (2 levels) in run_specs'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/configuration.rb:1926:in `with_suite_hooks'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:113:in `block in run_specs'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/reporter.rb:79:in `report'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:112:in `run_specs'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:87:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:71:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:45:in `invoke'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/exe/rspec:4:in `&lt;top (required)&gt;'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/bin/rspec:23:in `load'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/bin/rspec:23:in `&lt;main&gt;'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/bin/ruby_executable_hooks:24:in `eval'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/bin/ruby_executable_hooks:24:in `&lt;main&gt;'</stack-trace>
+      </failure>
+      <steps/>
+      <attachments/>
+      <labels>
+        <label name="thread" value="70209839033940"/>
+        <label name="host" value="FDLMC1414.local"/>
+      </labels>
+      <parameters/>
+    </test-case>
+    <test-case start="1564551764648" stop="1564551764649" status="broken">
+      <name>Api - skills #normalize Check whether normalize Api fetches the skill name with a invalid api-version</name>
+      <title>Api - skills #normalize Check whether normalize Api fetches the skill name with a invalid api-version</title>
+      <failure>
+        <message>undefined method `pry' for #&lt;Binding:0x00007fb60174edc0&gt;</message>
+        <stack-trace>/Users/user/Downloads/Ruby_Api_test/spec/skills/normalize_skillname_spec.rb:4:in `block (2 levels) in &lt;top (required)&gt;'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:350:in `instance_exec'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:350:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:509:in `block in run_owned_hooks_for'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:508:in `each'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:508:in `run_owned_hooks_for'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/hooks.rb:460:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/allure-rspec-0.8.0/lib/allure-rspec/hooks.rb:33:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/example_group.rb:537:in `block in run_before_context_hooks'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/memoized_helpers.rb:186:in `block in isolate_for_context_hook'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/memoized_helpers.rb:182:in `instance_exec'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/memoized_helpers.rb:182:in `isolate_for_context_hook'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/example_group.rb:536:in `run_before_context_hooks'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/example_group.rb:589:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:118:in `block (3 levels) in run_specs'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:118:in `map'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:118:in `block (2 levels) in run_specs'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/configuration.rb:1926:in `with_suite_hooks'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:113:in `block in run_specs'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/reporter.rb:79:in `report'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:112:in `run_specs'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:87:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:71:in `run'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/lib/rspec/core/runner.rb:45:in `invoke'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/gems/rspec-core-3.7.1/exe/rspec:4:in `&lt;top (required)&gt;'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/bin/rspec:23:in `load'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/bin/rspec:23:in `&lt;main&gt;'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/bin/ruby_executable_hooks:24:in `eval'&#xD;
+/Users/user/.rvm/gems/ruby-2.5.2/bin/ruby_executable_hooks:24:in `&lt;main&gt;'</stack-trace>
+      </failure>
+      <steps/>
+      <attachments/>
+      <labels>
+        <label name="thread" value="70209839033940"/>
+        <label name="host" value="FDLMC1414.local"/>
+      </labels>
+      <parameters/>
+    </test-case>
+  </test-cases>
+  <labels>
+    <label name="thread" value="70209839033940"/>
+    <label name="host" value="FDLMC1414.local"/>
+  </labels>
+</ns2:test-suite>

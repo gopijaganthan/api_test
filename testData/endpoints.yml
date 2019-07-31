@@ -1,0 +1,4 @@
+Api:
+  endpoint: http://localhost:8080
+  calc_annuity: /calc-annuity
+  generate_plan: /generate-plan

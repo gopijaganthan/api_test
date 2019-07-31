@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1564576406960" stop="1564576413462">
+  <name>Api - Acceptance Criteria</name>
+  <title>Api - Acceptance Criteria</title>
+  <test-cases>
+    <test-case start="1564576406961" stop="1564576408493" status="passed">
+      <name>Api - Acceptance Criteria 1) The calculated borrower schedule must comply with the duration in months that was given as input</name>
+      <title>Api - Acceptance Criteria 1) The calculated borrower schedule must comply with the duration in months that was given as input</title>
+      <steps/>
+      <attachments/>
+      <labels>
+        <label name="thread" value="70349366693460"/>
+        <label name="host" value="FDLMC1414.local"/>
+      </labels>
+      <parameters/>
+    </test-case>
+    <test-case start="1564576408494" stop="1564576409105" status="passed">
+      <name>Api - Acceptance Criteria 2) The total payment amount per month in a borrower schedule should equal the value from the annuity call</name>
+      <title>Api - Acceptance Criteria 2) The total payment amount per month in a borrower schedule should equal the value from the annuity call</title>
+      <steps/>
+      <attachments/>
+      <labels>
+        <label name="thread" value="70349366693460"/>
+        <label name="host" value="FDLMC1414.local"/>
+      </labels>
+      <parameters/>
+    </test-case>
+    <test-case start="1564576409105" stop="1564576410257" status="passed">
+      <name>Api - Acceptance Criteria 3,4) The start date determines the first due date of the calculated schedule. We assume that each schedule entry is always due on the same day (i.e. start date 25.01.18 --&gt; first due date 25.02.18). If the day of the start date does not exist in one of the following months, for that installment (schedule entry) the due date must use the next available calendar day. This must not influence any follow-up schedule entry</name>
+      <title>Api - Acceptance Criteria 3,4) The start date determines the first due date of the calculated schedule. We assume that each schedule entry is always due on the same day (i.e. start date 25.01.18 --&gt; first due date 25.02.18). If the day of the start date does not exist in one of the following months, for that installment (schedule entry) the due date must use the next available calendar day. This must not influence any follow-up schedule entry</title>
+      <steps/>
+      <attachments/>
+      <labels>
+        <label name="thread" value="70349366693460"/>
+        <label name="host" value="FDLMC1414.local"/>
+      </labels>
+      <parameters/>
+    </test-case>
+    <test-case start="1564576410257" stop="1564576410807" status="passed">
+      <name>Api - Acceptance Criteria 5) The interest calculation complies with a simplified version of a 30/360 day count convention. (Every full month is counted as 30 days)</name>
+      <title>Api - Acceptance Criteria 5) The interest calculation complies with a simplified version of a 30/360 day count convention. (Every full month is counted as 30 days)</title>
+      <steps/>
+      <attachments/>
+      <labels>
+        <label name="thread" value="70349366693460"/>
+        <label name="host" value="FDLMC1414.local"/>
+      </labels>
+      <parameters/>
+    </test-case>
+    <test-case start="1564576410807" stop="1564576411845" status="passed">
+      <name>Api - Acceptance Criteria 6, 7) If there are installments which do not cover a full month, every day has to be taken into account for interest calculation</name>
+      <title>Api - Acceptance Criteria 6, 7) If there are installments which do not cover a full month, every day has to be taken into account for interest calculation</title>
+      <steps>
+        <step start="1564576410807" stop="1564576410810" status="passed">
+          <name>The calculated interest per schedule entry is based on the initial outstanding principal of that entry and the duration (in days) between this entry and the last one (or start date).</name>
+          <title>The calculated interest per schedule entry is based on the initial outstanding principal of that entry and the duration (in days) between this entry and the last one (or start date).</title>
+          <attachments/>
+        </step>
+      </steps>
+      <attachments/>
+      <labels>
+        <label name="thread" value="70349366693460"/>
+        <label name="host" value="FDLMC1414.local"/>
+      </labels>
+      <parameters/>
+    </test-case>
+    <test-case start="1564576411845" stop="1564576412386" status="passed">
+      <name>Api - Acceptance Criteria 8) The remaining outstanding principal of one entry equals the initial outstanding principal of the following month</name>
+      <title>Api - Acceptance Criteria 8) The remaining outstanding principal of one entry equals the initial outstanding principal of the following month</title>
+      <steps/>
+      <attachments/>
+      <labels>
+        <label name="thread" value="70349366693460"/>
+        <label name="host" value="FDLMC1414.local"/>
+      </labels>
+      <parameters/>
+    </test-case>
+    <test-case start="1564576412387" stop="1564576412937" status="passed">
+      <name>Api - Acceptance Criteria 9) The remaining outstanding principal of the last schedule entry equals always 0.00 &#x20AC;</name>
+      <title>Api - Acceptance Criteria 9) The remaining outstanding principal of the last schedule entry equals always 0.00 &#x20AC;</title>
+      <steps/>
+      <attachments/>
+      <labels>
+        <label name="thread" value="70349366693460"/>
+        <label name="host" value="FDLMC1414.local"/>
+      </labels>
+      <parameters/>
+    </test-case>
+    <test-case start="1564576412937" stop="1564576413462" status="passed">
+      <name>Api - Acceptance Criteria 10) The sum of all principal amounts in the schedule entries equals the total loan amount</name>
+      <title>Api - Acceptance Criteria 10) The sum of all principal amounts in the schedule entries equals the total loan amount</title>
+      <steps/>
+      <attachments/>
+      <labels>
+        <label name="thread" value="70349366693460"/>
+        <label name="host" value="FDLMC1414.local"/>
+      </labels>
+      <parameters/>
+    </test-case>
+  </test-cases>
+  <labels>
+    <label name="thread" value="70349366693460"/>
+    <label name="host" value="FDLMC1414.local"/>
+  </labels>
+</ns2:test-suite>

@@ -15,9 +15,8 @@ $TESTRAILS_DATA = YAML.load_file('testData/testrails_details.yml')
 require_relative "../lib/client.rb"
 require_relative "../lib/testrails_client.rb"
 require_relative "../api/lendico.rb"
-require_relative "../common/calculate.rb"
-require_relative "../common/util.rb"
-
+require_relative "../common/borrower.rb"
+require_relative "../common/date_utils.rb"
 # initialze testrails object
 $test_rails_client = TestRailsclient.new($TESTRAILS_DATA['Testrails'])
 # allure report configuration

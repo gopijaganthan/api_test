@@ -1,5 +1,5 @@
 module Utility
-  class Calculate
+  class Borrower
     def initilize
       @days_in_year = 360
       @days_in_month = 30

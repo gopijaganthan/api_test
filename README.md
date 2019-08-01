@@ -4,7 +4,9 @@ Prerequisites:
 
 Binaries deployed as a service to port 8080. (https://github.com/Lendico/coding/tree/master/tasks/test-eng)
 
-Navigated to home directory and ran bundle install to install supported gems
+Ruby version 2 is already installed.
+
+Navigated to home directory and run 'bundle install' to install supported gems
 
 Run:
 
